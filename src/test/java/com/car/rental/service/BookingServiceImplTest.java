@@ -1,3 +1,4 @@
+package com.car.rental.service;
 
 import com.car.rental.model.Reservation;
 import com.car.rental.model.User;
@@ -7,7 +8,6 @@ import com.car.rental.model.car.Suv;
 import com.car.rental.model.car.enums.CarType;
 import com.car.rental.model.car.enums.FuelType;
 import com.car.rental.model.car.enums.TransmissionType;
-import com.car.rental.service.BookingService;
 import com.car.rental.service.impl.BookingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
